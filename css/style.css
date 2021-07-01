@@ -1,0 +1,232 @@
+*{
+    box-sizing: border-box;
+}
+
+.clearfix {
+    clear: both;
+  }
+
+
+/*///////////elements///////*/
+
+body{
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #DDDDDD;
+    margin: 0;
+  }
+
+header{
+    background-color: #f6f6f6;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+h1{
+    font-family: 'Orbitron', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 2.8rem;
+    letter-spacing: .08rem;
+    color: #125D98;
+    margin-top: 0;
+  
+  }
+
+  h3{
+    color: #125D98;
+  }
+
+  span{
+    color: #125D98;
+    font-size: .9rem;
+  }
+
+  hr{
+    width: 40%;
+    border: 3px solid #F5A962;
+    border-radius: 8px;
+   
+
+  }
+
+  p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.8rem;
+    max-width: 90%;
+    margin: auto;
+    color: #3C8DAD;
+    padding-bottom: 1.4rem;
+    padding-top: 1.4rem;
+  }
+
+
+  /*////////////classes//////*/
+
+  .container{
+    width: 90%;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: auto;
+  
+  }
+
+  .name{
+    margin-top: 0;
+  }
+  
+  .main-nav {
+    width: 100%;
+    background: #125D98;
+    min-height: 30px;
+    padding: 10px;
+    position: fixed;
+    text-align: center;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  .nav .name {
+      display: block;
+      margin-right: auto;
+      color: #DDDDDD;
+  }
+  .nav li {
+    padding: 5px 10px 10px 10px;
+  }
+  .nav a {
+    transition: all .5s;
+    color: #F5A962;
+  }
+  .nav a:hover {
+    color: white
+  }
+  
+  header {
+    text-align: center;
+    background: url('images/banner2.jpg') no-repeat top center ;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 60px;
+  }
+  header {
+    line-height: 1.5;
+  }
+  header .profile-image {
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    border: 5px solid #125D98;
+    transition: all .5s;
+    background-color: #F5A962;
+    padding-top: 7px;
+  
+  }
+
+  header p{
+      max-width: 50%;
+      font-size: 1.4rem;
+      color: #3C8DAD;
+  }
+  header .profile-image:hover, .card:hover {
+    transform: scale(1.15);
+  }
+
+  main{
+    align-content: center;
+  }
+
+  .skills{
+    display: inline-flex;
+    height: 25vh;
+  
+  }
+
+  .skills img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    border: 5px solid #125D98;
+    transition: all .5s;
+    background-color: #F5A962;
+    padding: 5px;
+  }
+
+  .card{
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 50px;
+    width: 100px;
+  }
+  
+  footer {
+    width: 100%;
+    height: 10vh;
+    padding: 20px 0 40px 20px;
+  }
+  
+  footer .copyright {
+    top: -8px;
+    font-size: .75em;
+  }
+  
+  footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer ul li {
+    display: inline-block;
+  }
+  
+  a.social {
+    display: inline-block;
+    text-indent: -9999px;
+    margin-left: 5px;
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    opacity: .6;
+    transition: all .5s;
+  }
+
+  a.linkedin {
+    background-image: url(/Users/williamschoenle/Documents/Grand_Circus/portfolio/images/linkedin.svg);
+  }
+  a.github {
+    background-image: url(/Users/williamschoenle/Documents/Grand_Circus/portfolio/images/github.svg);
+  }
+  a.social:hover {
+    opacity: 1;
+  }
+
+  
+  /*//////////////additional pages///////*/
+
+  .page-title{
+    font-family: 'Orbitron', sans-serif;
+    margin-top:50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 2.8rem;
+    letter-spacing: .08rem;
+    color: #125D98;
+    margin-top: 0;
+  }
+
+  .article{
+    margin: auto;
+    align-content: center;
+    text-align: left;
+    width: 70%;
+  }
